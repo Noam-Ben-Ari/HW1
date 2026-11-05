@@ -13,6 +13,7 @@ public class Assignment01Q03 {
                 numOdd++;
             }
         }
+        System.out.println();
         
         System.out.println("The number of odd numbers is: " + numOdd);
     }

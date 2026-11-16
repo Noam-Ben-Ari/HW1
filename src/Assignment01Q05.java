@@ -1,6 +1,6 @@
 public class Assignment01Q05 {
 
-    // Enqueue a value into the queue and return the new last index
+    // Add a value at the end of the queue and return the new last index
     // Queue length is assumed to be sufficient to hold the new value (each graph node is only enqueued once)
     private static int enqueue(int[] queue, int first, int last, int value) {
         queue[last] = value;
@@ -8,7 +8,7 @@ public class Assignment01Q05 {
         return last;
     }
 
-    // Dequeue a value from the queue and return the new first index
+    // Remove a value from the head of the queue and return the new first index
     private static int dequeue(int[] queue, int first, int last) {
         first += 1;
         return first;
